@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function Home(){
   return(
-    <main className="bg-dark">
+    <main className="bg-black">
           <div className="flex flex-col md:flex-row md:p-12">
             <div className="flex flex-col p-5 text-left" id="sobre">
               <h1 className = "text-4xl mt-2">"Hello, World!" Meu nome é <span className="text-[#9f63b7]">Isabela Vitória</span></h1>
