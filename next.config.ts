@@ -1,7 +1,12 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  devIndicators: {
+    buildActivity: false, // Desativa o spinner de build
+  },
+  experimental: {
+    monitoring: false, // Desativa o botão de Issue da Vercel
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
