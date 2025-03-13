@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="br">
       <body
-        className={`antialiased`}
+        className="antialiased"
       >
         {/* aqui no layout children é a pasta renderizada atualmente, header ou qualquer coisa que eu colocar aqui vai aparecer e todas as páginas */}
         <Header/>
